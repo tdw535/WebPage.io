@@ -10,8 +10,12 @@
     </head>
 <body>
 
-    <canvas width="480" height="480"></canvas>
-
+    <canvas></canvas>
+    <script>
+        const _canvas = document.getElementsByTagName('canvas')[0]
+        _canvas.width = window.innerWidth;
+        _canvas.height = window.innerHeight;
+    </script>
 
 </body>
 </html> 
